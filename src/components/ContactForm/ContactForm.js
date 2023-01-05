@@ -3,7 +3,7 @@ import { addContact } from 'redux/operations';
 
 import { Formik, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-import { FormStyled, Input, Label } from './FormStyled.styled';
+import { FormStyled, Input } from './FormStyled.styled';
 
 const initialValues = {
   name: '',
