@@ -31,16 +31,16 @@ export const ContactForm = ({ handleAdd }) => {
       onSubmit={handleSubmit}
     >
       <FormStyled>
-        <Label>
+        <label>
           Name
           <Input type="text" name="name" required placeholder="Enter name" />
           <ErrorMessage name="name" component="div" />
-        </Label>
-        <Label>
+        </label>
+        <label>
           Phone
           <Input type="tel" name="phone" required placeholder="Enter phone" />
           <ErrorMessage name="phone" component="div" />
-        </Label>
+        </label>
         <button type="submit">Add contact</button>
       </FormStyled>
     </Formik>
