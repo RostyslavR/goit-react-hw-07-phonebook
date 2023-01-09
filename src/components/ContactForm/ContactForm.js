@@ -17,7 +17,7 @@ const schema = Yup.object().shape({
   ),
 });
 
-export const ContactForm = ({ handleAdd }) => {
+export const ContactForm = () => {
   const dispatch = useDispatch();
   const handleSubmit = (contact, { resetForm }) => {
     dispatch(addContact(contact));
